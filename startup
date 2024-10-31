@@ -55,7 +55,8 @@ flameshot &
 
 # Set your keybord layout here
 #setxkbmap us -variant intl & 	# to have a us keyboard with special characters enabled (like éóíáú)
-setxkbmap -model abnt2 -layout br -variant ,abnt2 -option keypad:pointerkey
+
+setxkbmap -model abnt2 -layout br -variant ,abnt2 -option keypad:pointerkey &
 
 # Start Fluxbox
 exec fluxbox -no-slit -log ~/.fluxbox/log

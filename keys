@@ -122,6 +122,9 @@ Control Shift b :exec qutebrowser
 ## Leafpad
 Control Shift l :exec leafpad
 
+## Lockscreen
+Control l :exec xscreensaver-command -lock
+
 ## Other ##
 Control Mod1 l :exec {betterlockscreen --lock}
 Control Mod1 m :exec {~/.fluxbox/scripts/fbox_music}

@@ -8,7 +8,7 @@ export PATH="$HOME/.guix-profile/bin:$PATH"
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias ls='lsd'
+alias ls='lsd && lsix'
 alias lsi='lsix'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
